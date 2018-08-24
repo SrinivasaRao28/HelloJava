@@ -24,10 +24,10 @@ Iterator itr=s2.iterator();
 
 while(itr.hasNext()){
 Map.Entry m1=(Map.Entry)itr.next();
-//System.out.println("key "+m1.getKey()+" "+"value"+m1.getValue());
+System.out.println("key "+m1.getKey()+" "+"value"+m1.getValue());
 if(m1.getKey().equals("Nagarjuna")){
 m1.setValue(800);
-//System.out.println("key "+m1.getKey()+" "+"value"+m1.getValue());
+System.out.println("key "+m1.getKey()+" "+"value"+m1.getValue());
 }
 }
 return m;
@@ -35,9 +35,8 @@ return m;
 	
 public static void main(String []args) throws Exception{
 	HashMapDemo t=new HashMapDemo();
-	t.start();
-	Thread.sleep(5000);
-	//t.run();
+	t.hashMap();
+
 	
 
 }
