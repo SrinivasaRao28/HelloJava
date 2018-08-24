@@ -16,6 +16,9 @@ m.put("Chiranjeevi",100);
 m.put("Nagarjuna",200);
 m.put("Balaiah",300);
 m.put("Venkatesh",400);
+m.put("Nagarjuna2",200);
+m.put("Balaiah2",300);
+m.put("Venkatesh2",400);
 System.out.println(m);
 Set s2=m.entrySet();
 
