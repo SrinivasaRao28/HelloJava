@@ -1,7 +1,7 @@
 class Addition{
 public static void main(String []args){
-int[][] a={{1,1,1,},{1,1,1},{1,1,1}};
-int[][] b={{1,1,1},{2,2,2},{1,1,1}};
+int[][] a={{5,5,5,},{6,6,6},{1,1,1}};
+int[][] b={{8,8,8},{2,2,2},{1,1,1}};
 int[][] c=new int[3][3];
 
 for(int i=0;i<a.length;i++){
